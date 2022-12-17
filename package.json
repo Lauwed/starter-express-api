@@ -1,22 +1,14 @@
 {
-  "name": "starter-express-api",
-  "version": "1.0.0",
-  "description": "",
+  "name": "dev-girl-paint",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
+  "description": "Le Web Paint de la Dev Girl Society",
   "dependencies": {
-    "express": "^4.17.1"
+    "@twurple/auth": "^5.2.4",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2"
   }
 }
